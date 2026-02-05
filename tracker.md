@@ -8,7 +8,7 @@ Last updated: 2026-02-05
 |---|---|---|
 | Quickdraw | Default | Closed issue #1 instantly |
 | YOLO | Default | Merged PR #2 without review |
-| Pull Shark | Default (60+ PRs, bronze pending) | 18 PRs in this repo + 42 across other repos |
+| Pull Shark | **Bronze (x2)** | 62+ merged PRs across all repos |
 | Pair Extraordinaire | Default | Co-authored commit in PR #3 |
 | Starstruck | Default | Pre-existing from another repo |
 
@@ -32,7 +32,7 @@ Last updated: 2026-02-05
 
 | Achievement | Current | Next Tier | Progress |
 |---|---|---|---|
-| Pull Shark | Default (60 PRs) | Bronze (16) | Should upgrade soon |
+| Pull Shark | **Bronze (62 PRs)** | Silver (128) | 66 more PRs needed |
 | Pair Extraordinaire | Default (1) | Bronze (10) | 1/10 |
 | Starstruck | Default (16+) | Bronze (128) | Need more stars |
 

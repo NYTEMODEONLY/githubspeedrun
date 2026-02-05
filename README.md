@@ -12,11 +12,9 @@ Speedrunning GitHub profile achievements responsibly. Built with [Claude Code](h
 |---|---|---|
 | **Quickdraw** | Default | Opened and closed issue #1 in seconds |
 | **YOLO** | Default | Merged PR #2 with zero code review |
-| **Pull Shark** | Default* | 60+ merged PRs across all repos |
+| **Pull Shark** | **Bronze (x2)** | 62+ merged PRs across all repos |
 | **Pair Extraordinaire** | Default | Co-authored commit in merged PR |
-| **Starstruck** | Default | Pre-existing from another repo |
-
-> *Pull Shark tier upgrade to Bronze (x2) pending — GitHub tier updates can take hours/days.
+| **Starstruck** | Default | Pre-existing (polyterm repo, 17 stars) |
 
 ### Not Earned (Requires External Action)
 
