@@ -63,7 +63,7 @@ echo ""
 # Starstruck (check top-starred repo)
 # ---------------------------------------------------------------------------
 echo -e "${CYAN}--- Starstruck ---${NC}"
-TOP_REPO=$(gh api "users/$USERNAME/repos?sort=stars&per_page=1" --jq '.[0] | "\(.name): \(.stargazers_count) stars"' 2>/dev/null || echo "unknown: 0 stars")
+TOP_REPO=$(gh api "users/$USERNAME/repos?per_page=100" --jq '[.[] | {name, stars: .stargazers_count}] | sort_by(.stars) | reverse | .[0] | "\(.name): \(.stars) stars"' 2>/dev/null || echo "unknown: 0 stars")
 TOP_STARS=$(echo "$TOP_REPO" | grep -o '[0-9]*' | tail -1)
 echo -e "  Top repo: ${GREEN}$TOP_REPO${NC}"
 echo -e "  Tier: $(tier_label "${TOP_STARS:-0}" 16 128 512 4096)"
