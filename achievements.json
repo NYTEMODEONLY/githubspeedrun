@@ -1,0 +1,74 @@
+{
+  "achievements": [
+    {
+      "name": "Quickdraw",
+      "description": "Close an issue or PR within 5 minutes of opening",
+      "tiers": false,
+      "earnable": true
+    },
+    {
+      "name": "YOLO",
+      "description": "Merge a pull request without code review",
+      "tiers": false,
+      "earnable": true
+    },
+    {
+      "name": "Pull Shark",
+      "description": "Open pull requests that get merged",
+      "tiers": {"default": 2, "bronze": 16, "silver": 128, "gold": 1024},
+      "earnable": true
+    },
+    {
+      "name": "Galaxy Brain",
+      "description": "Get accepted answers on discussions",
+      "tiers": {"default": 2, "bronze": 8, "silver": 16, "gold": 32},
+      "earnable": true
+    },
+    {
+      "name": "Pair Extraordinaire",
+      "description": "Co-author commits in merged pull requests",
+      "tiers": {"default": 1, "bronze": 10, "silver": 24, "gold": 48},
+      "earnable": true
+    },
+    {
+      "name": "Starstruck",
+      "description": "Have a repository with many stars",
+      "tiers": {"default": 16, "bronze": 128, "silver": 512, "gold": 4096},
+      "earnable": true,
+      "note": "Requires others to star your repo"
+    },
+    {
+      "name": "Public Sponsor",
+      "description": "Sponsor an open source contributor via GitHub Sponsors",
+      "tiers": false,
+      "earnable": true,
+      "note": "Requires payment"
+    },
+    {
+      "name": "Arctic Code Vault Contributor",
+      "description": "Contributed code to the 2020 GitHub Archive Program",
+      "tiers": false,
+      "earnable": false
+    },
+    {
+      "name": "Mars 2020 Contributor",
+      "description": "Contributed code to repos used in Mars 2020 Helicopter Mission",
+      "tiers": false,
+      "earnable": false
+    },
+    {
+      "name": "Heart On Your Sleeve",
+      "description": "React to something on GitHub with a heart emoji",
+      "tiers": false,
+      "earnable": false,
+      "note": "Being tested, not yet available"
+    },
+    {
+      "name": "Open Sourcerer",
+      "description": "Have PRs merged in multiple public repositories",
+      "tiers": false,
+      "earnable": false,
+      "note": "Being tested, not yet available"
+    }
+  ]
+}
