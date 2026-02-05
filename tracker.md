@@ -1,24 +1,43 @@
-# Achievement Tracker
+# Achievement Tracker - NYTEMODEONLY
 
-## Earned
-| Achievement | Status | Progress |
+Last updated: 2026-02-05
+
+## Confirmed on Profile
+
+| Achievement | Tier | Earned Via |
 |---|---|---|
-| Quickdraw | Earned | Closed issue #1 in seconds |
-| YOLO | Earned | Merged PR #2 without review |
-| Pull Shark | Earned (Default) | 3/16 toward Bronze |
-| Galaxy Brain | Earned (Default) | 2/8 toward Bronze |
+| Quickdraw | Default | Closed issue #1 instantly |
+| YOLO | Default | Merged PR #2 without review |
+| Pull Shark | Default (60+ PRs, bronze pending) | 18 PRs in this repo + 42 across other repos |
+| Pair Extraordinaire | Default | Co-authored commit in PR #3 |
+| Starstruck | Default | Pre-existing from another repo |
 
 ## Not Yet Earned
-| Achievement | Requirement | Notes |
+
+| Achievement | Blocker | Action Needed |
 |---|---|---|
-| Pair Extraordinaire | Co-author with real GitHub user | Need co-author with GitHub account |
-| Starstruck | 16 stars on a repo | Need community support |
-| Public Sponsor | Sponsor someone | Costs money |
+| Galaxy Brain | Self-answers don't count | Need someone else to ask Q&A questions |
+| Public Sponsor | Costs money | Sponsor any developer ($1+/month) |
 
 ## Not Earnable
+
 | Achievement | Reason |
 |---|---|
 | Arctic Code Vault Contributor | 2020 one-time event |
 | Mars 2020 Contributor | Historical one-time event |
-| Heart On Your Sleeve | Not yet released |
-| Open Sourcerer | Not yet released |
+| Heart On Your Sleeve | Unreleased (beta) |
+| Open Sourcerer | Unreleased (beta) |
+
+## Tier Progression
+
+| Achievement | Current | Next Tier | Progress |
+|---|---|---|---|
+| Pull Shark | Default (60 PRs) | Bronze (16) | Should upgrade soon |
+| Pair Extraordinaire | Default (1) | Bronze (10) | 1/10 |
+| Starstruck | Default (16+) | Bronze (128) | Need more stars |
+
+## Manual Steps Remaining
+
+1. **Developer Program Member badge** - Register free at github.com/developer
+2. **Galaxy Brain** - Have a friend ask a Q&A question on this repo's Discussions
+3. **Public Sponsor** - Sponsor any GitHub Sponsors developer ($1 minimum)

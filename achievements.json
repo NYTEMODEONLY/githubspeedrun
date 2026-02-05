@@ -4,71 +4,143 @@
       "name": "Quickdraw",
       "description": "Close an issue or PR within 5 minutes of opening",
       "tiers": false,
-      "earnable": true
+      "earnable": true,
+      "automatable": true,
+      "solo": true,
+      "speedrun_method": "Open an issue with gh issue create, immediately close with gh issue close"
     },
     {
       "name": "YOLO",
       "description": "Merge a pull request without code review",
       "tiers": false,
-      "earnable": true
+      "earnable": true,
+      "automatable": true,
+      "solo": true,
+      "speedrun_method": "Create branch, push, open PR, merge immediately without requesting review"
     },
     {
       "name": "Pull Shark",
       "description": "Open pull requests that get merged",
       "tiers": {"default": 2, "bronze": 16, "silver": 128, "gold": 1024},
-      "earnable": true
+      "earnable": true,
+      "automatable": true,
+      "solo": true,
+      "speedrun_method": "Create branches with meaningful files, open PRs, merge. Self-merges count.",
+      "gotchas": ["Tier upgrades may take hours/days to propagate", "All PRs count including self-merges on own repos"]
     },
     {
       "name": "Galaxy Brain",
-      "description": "Get accepted answers on discussions",
+      "description": "Get accepted answers on Q&A discussions",
       "tiers": {"default": 2, "bronze": 8, "silver": 16, "gold": 32},
-      "earnable": true
+      "earnable": true,
+      "automatable": false,
+      "solo": false,
+      "speedrun_method": "Enable discussions, have others ask Q&A questions, answer them, mark as accepted",
+      "gotchas": [
+        "Self-answered discussions DO NOT COUNT",
+        "Someone else must create the question",
+        "You can mark any answer as accepted if you own the repo",
+        "No longer earnable in GitHub Community Discussions (only repo discussions)"
+      ]
     },
     {
       "name": "Pair Extraordinaire",
       "description": "Co-author commits in merged pull requests",
       "tiers": {"default": 1, "bronze": 10, "silver": 24, "gold": 48},
-      "earnable": true
+      "earnable": true,
+      "automatable": true,
+      "solo": false,
+      "speedrun_method": "Add 'Co-authored-by: Name <email>' trailer to commits in merged PRs",
+      "gotchas": [
+        "Co-author email MUST map to a real GitHub account",
+        "Use username@users.noreply.github.com format for reliability",
+        "The PR must be merged, not just committed"
+      ]
     },
     {
       "name": "Starstruck",
       "description": "Have a repository with many stars",
       "tiers": {"default": 16, "bronze": 128, "silver": 512, "gold": 4096},
       "earnable": true,
-      "note": "Requires others to star your repo"
+      "automatable": false,
+      "solo": false,
+      "speedrun_method": "Build something useful, share on social media/Reddit/HN",
+      "gotchas": ["Stars must be on a single repo, not aggregated", "Cannot self-star"]
     },
     {
       "name": "Public Sponsor",
       "description": "Sponsor an open source contributor via GitHub Sponsors",
       "tiers": false,
       "earnable": true,
-      "note": "Requires payment"
+      "automatable": false,
+      "solo": true,
+      "speedrun_method": "Find a developer with lowest tier ($1-2/month), sponsor via GitHub Sponsors",
+      "gotchas": ["Requires payment", "Badge may disappear if sponsorship is cancelled"]
     },
     {
       "name": "Arctic Code Vault Contributor",
       "description": "Contributed code to the 2020 GitHub Archive Program",
       "tiers": false,
-      "earnable": false
+      "earnable": false,
+      "reason": "One-time event from 2020 Arctic Code Vault archive in Svalbard, Norway"
     },
     {
       "name": "Mars 2020 Contributor",
       "description": "Contributed code to repos used in Mars 2020 Helicopter Mission",
       "tiers": false,
-      "earnable": false
+      "earnable": false,
+      "reason": "Historical one-time event linked to JPL Mars Helicopter"
     },
     {
       "name": "Heart On Your Sleeve",
       "description": "React to something on GitHub with a heart emoji",
       "tiers": false,
       "earnable": false,
-      "note": "Being tested, not yet available"
+      "reason": "Being beta tested, not yet publicly available"
     },
     {
       "name": "Open Sourcerer",
       "description": "Have PRs merged in multiple public repositories",
       "tiers": false,
       "earnable": false,
-      "note": "Being tested, not yet available"
+      "reason": "Being beta tested, not yet publicly available"
     }
-  ]
+  ],
+  "profile_badges": [
+    {
+      "name": "Pro",
+      "how": "Subscribe to GitHub Pro",
+      "cost": "$4/month",
+      "earnable": true
+    },
+    {
+      "name": "Developer Program Member",
+      "how": "Register at github.com/developer",
+      "cost": "Free",
+      "earnable": true
+    },
+    {
+      "name": "Security Bug Bounty Hunter",
+      "how": "Participate in GitHub Security bounty program",
+      "cost": "Free",
+      "earnable": true
+    },
+    {
+      "name": "Campus Expert",
+      "how": "Join GitHub Campus Expert program (students only)",
+      "cost": "Free",
+      "earnable": true
+    },
+    {
+      "name": "Security Advisory Credit",
+      "how": "Submit accepted advisory to GitHub Advisory Database",
+      "cost": "Free",
+      "earnable": true
+    }
+  ],
+  "metadata": {
+    "last_updated": "2026-02-05",
+    "source": "github.com/drknzz/GitHub-Achievements, github.com/Schweinepriester/github-profile-achievements",
+    "notes": "Achievement data verified through community research and testing"
+  }
 }
